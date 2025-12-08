@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "studentId": 1,
+    "courseId": 1,
+    "testName": "Unit 1 Quiz",
+    "date": "2024-09-12",
+    "mark": 8,
+    "outOf": 10,
+    "weight": 5
+  },
+  {
+    "id": 2,
+    "studentId": 1,
+    "courseId": 5,
+    "testName": "Midterm",
+    "date": "2025-03-10",
+    "mark": 78,
+    "outOf": 100,
+    "weight": 30
+  },
+  {
+    "id": 3,
+    "studentId": 2,
+    "courseId": 2,
+    "testName": "Lab Report",
+    "date": "2024-11-02",
+    "mark": 18,
+    "outOf": 20,
+    "weight": 10
+  },
+  {
+    "id": 4,
+    "studentId": 2,
+    "courseId": 1,
+    "testName": "Project",
+    "date": "2025-04-28",
+    "mark": 46,
+    "outOf": 50,
+    "weight": 25
+  },
+  {
+    "id": 5,
+    "studentId": 3,
+    "courseId": 3,
+    "testName": "Essay",
+    "date": "2024-10-20",
+    "mark": 17,
+    "outOf": 20,
+    "weight": 15
+  },
+  {
+    "id": 6,
+    "studentId": 3,
+    "courseId": 6,
+    "testName": "Oral Presentation",
+    "date": "2025-01-15",
+    "mark": 19,
+    "outOf": 20,
+    "weight": 10
+  },
+  {
+    "id": 7,
+    "studentId": 4,
+    "courseId": 4,
+    "testName": "Chapter Test",
+    "date": "2025-03-05",
+    "mark": 34,
+    "outOf": 40,
+    "weight": 10
+  },
+  {
+    "id": 8,
+    "studentId": 4,
+    "courseId": 2,
+    "testName": "Final Exam",
+    "date": "2025-06-18",
+    "mark": 85,
+    "outOf": 100,
+    "weight": 40
+  },
+  {
+    "id": 9,
+    "studentId": 5,
+    "courseId": 1,
+    "testName": "Introduction Quiz",
+    "date": "2024-09-09",
+    "mark": 9,
+    "outOf": 10,
+    "weight": 5
+  },
+  {
+    "id": 10,
+    "studentId": 5,
+    "courseId": 3,
+    "testName": "Midterm",
+    "date": "2025-02-20",
+    "mark": 72,
+    "outOf": 100,
+    "weight": 30
+  },
+  {
+    "id": 11,
+    "studentId": 6,
+    "courseId": 2,
+    "testName": "Practical Test",
+    "date": "2025-04-02",
+    "mark": 41,
+    "outOf": 50,
+    "weight": 15
+  },
+  {
+    "id": 12,
+    "studentId": 6,
+    "courseId": 6,
+    "testName": "Fitness Assessment",
+    "date": "2024-12-10",
+    "mark": 28,
+    "outOf": 30,
+    "weight": 20
+  },
+  {
+    "id": 13,
+    "studentId": 7,
+    "courseId": 3,
+    "testName": "Reading Comprehension",
+    "date": "2024-11-18",
+    "mark": 22,
+    "outOf": 25,
+    "weight": 10
+  },
+  {
+    "id": 14,
+    "studentId": 7,
+    "courseId": 5,
+    "testName": "Problem Set",
+    "date": "2025-03-30",
+    "mark": 27,
+    "outOf": 30,
+    "weight": 15
+  },
+  {
+    "id": 15,
+    "studentId": 8,
+    "courseId": 4,
+    "testName": "Source Analysis",
+    "date": "2025-02-07",
+    "mark": 16,
+    "outOf": 20,
+    "weight": 10
+  },
+  {
+    "id": 16,
+    "studentId": 8,
+    "courseId": 1,
+    "testName": "Coding Assignment",
+    "date": "2025-04-15",
+    "mark": 92,
+    "outOf": 100,
+    "weight": 25
+  },
+  {
+    "id": 17,
+    "studentId": 9,
+    "courseId": 6,
+    "testName": "Safety Quiz",
+    "date": "2024-10-05",
+    "mark": 8,
+    "outOf": 10,
+    "weight": 5
+  },
+  {
+    "id": 18,
+    "studentId": 10,
+    "courseId": 5,
+    "testName": "Functions Test",
+    "date": "2025-01-22",
+    "mark": 36,
+    "outOf": 40,
+    "weight": 15
+  },
+  {
+    "id": 19,
+    "studentId": 10,
+    "courseId": 2,
+    "testName": "Lab Practical",
+    "date": "2025-03-18",
+    "mark": 44,
+    "outOf": 50,
+    "weight": 20
+  },
+  {
+    "id": 20,
+    "studentId": 11,
+    "courseId": 1,
+    "testName": "Final Exam",
+    "date": "2025-06-20",
+    "mark": 88,
+    "outOf": 100,
+    "weight": 40
+  },
+  {
+    "id": 21,
+    "studentId": 12,
+    "courseId": 3,
+    "testName": "In-class Essay",
+    "date": "2025-02-13",
+    "mark": 15,
+    "outOf": 20,
+    "weight": 10
+  },
+  {
+    "id": 22,
+    "studentId": 13,
+    "courseId": 5,
+    "testName": "Quiz 3",
+    "date": "2024-11-29",
+    "mark": 14,
+    "outOf": 20,
+    "weight": 5
+  },
+  {
+    "id": 23,
+    "studentId": 14,
+    "courseId": 2,
+    "testName": "Midterm",
+    "date": "2025-03-12",
+    "mark": 75,
+    "outOf": 100,
+    "weight": 30
+  },
+  {
+    "id": 24,
+    "studentId": 15,
+    "courseId": 4,
+    "testName": "Research Presentation",
+    "date": "2025-05-06",
+    "mark": 18,
+    "outOf": 20,
+    "weight": 20
+  },
+  {
+    "id": 25,
+    "studentId": 15,
+    "courseId": 6,
+    "testName": "Participation",
+    "date": "2024-12-18",
+    "mark": 9,
+    "outOf": 10,
+    "weight": 5
+  }
+]

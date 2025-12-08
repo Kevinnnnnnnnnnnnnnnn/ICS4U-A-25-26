@@ -1,0 +1,50 @@
+[
+  {
+    "id": 101,
+    "firstName": "Ava",
+    "lastName": "Turner",
+    "email": "ava.turner@bayviewglen.edu",
+    "department": "Mathematics",
+    "room": "M102"
+  },
+  {
+    "id": 102,
+    "firstName": "Liam",
+    "lastName": "Patel",
+    "email": "liam.patel@bayviewglen.edu",
+    "department": "Science",
+    "room": "S204"
+  },
+  {
+    "id": 103,
+    "firstName": "Sophia",
+    "lastName": "Nguyen",
+    "email": "sophia.nguyen@bayviewglen.edu",
+    "department": "English",
+    "room": "E103"
+  },
+  {
+    "id": 104,
+    "firstName": "Ethan",
+    "lastName": "Martinez",
+    "email": "ethan.martinez@bayviewglen.edu",
+    "department": "History",
+    "room": "H210"
+  },
+  {
+    "id": 105,
+    "firstName": "Maya",
+    "lastName": "Singh",
+    "email": "maya.singh@bayviewglen.edu",
+    "department": "Computer Science",
+    "room": "CS301"
+  },
+  {
+    "id": 106,
+    "firstName": "Noah",
+    "lastName": "Reid",
+    "email": "noah.reid@bayviewglen.edu",
+    "department": "Physical Education",
+    "room": "G12"
+  }
+]
