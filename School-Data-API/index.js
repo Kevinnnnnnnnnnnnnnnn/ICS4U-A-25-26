@@ -303,3 +303,24 @@ app.delete("/tests/:id", (req, res) => {
     saveJson("tests.json", tests);
     res.status(200).json(deleted);
 })
+
+app.get("/students/:id/tests", (req, res) => {
+    const id = Number(req.params.id);
+    const student = students.find(s => s.id === id);
+    if (!student) {
+        return res.status(404).json({error: "Student not found!"});
+    }
+    const theirTests = tests.filter(t => t.studentId === id);
+    res.status(200).json(theirTests);
+})
+
+app.get("/students/:id/courses", (req, res) => {
+    const id = Number(req.params.id);
+    const student = students.find(s => s.id === id);
+    if (!students) {
+        return res.status(404).json({error: "Student not found!"});
+    }
+    const courseIds = tests.filter(t => t.studentId === id).map(t => t.courseId);
+    const theirCourses = courseIds.map(cid => courses.find(c => c.id === cid));
+    res.status(200).json(theirCourses);
+})
