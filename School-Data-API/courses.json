@@ -1,56 +1,65 @@
 [
-  {
-    "id": 1,
-    "code": "ICS3U",
-    "name": "Computer Science",
-    "teacherId": 105,
-    "semester": "2",
-    "room": "CS301",
-    "schedule": "Day 1 AM"
-  },
-  {
-    "id": 2,
-    "code": "SPH4U",
-    "name": "Physics",
-    "teacherId": 102,
-    "semester": "1",
-    "room": "S204",
-    "schedule": "Day 1 PM"
-  },
-  {
-    "id": 3,
-    "code": "ENG3U",
-    "name": "English",
-    "teacherId": 103,
-    "semester": "Full Year",
-    "room": "E103",
-    "schedule": "Day 2 AM"
-  },
-  {
-    "id": 4,
-    "code": "HRT3M",
-    "name": "World History",
-    "teacherId": 104,
-    "semester": "Full Year",
-    "room": "H210",
-    "schedule": "Day 2 PM"
-  },
-  {
-    "id": 5,
-    "code": "MTH4U",
-    "name": "Advanced Functions",
-    "teacherId": 101,
-    "semester": "Full Year",
-    "room": "M102",
-    "schedule": "Day 3 AM"
-  },
-  {
-    "id": 6,
-    "code": "PPL2O",
-    "name": "Healthy Active Living",
-    "teacherId": 106,
-    "semester": "1",
-    "room": "G12",
-    "schedule": "Day 3 PM"
-  }
+    {
+        "_id": "695d3031ea35025cbb35ee83",
+        "id": 1,
+        "code": "ICS3U",
+        "name": "Computer Science",
+        "teacherId": "695d2fd0ea35025cbb35ee53",
+        "semester": "2",
+        "room": "CS301",
+        "schedule": "Day 1 AM"
+    },
+    {
+        "_id": "695d3031ea35025cbb35ee84",
+        "id": 2,
+        "code": "SPH4U",
+        "name": "Physics",
+        "teacherId": "695d2fd0ea35025cbb35ee50",
+        "semester": "1",
+        "room": "S204",
+        "schedule": "Day 1 PM"
+    },
+    {
+        "_id": "695d3031ea35025cbb35ee85",
+        "id": 3,
+        "code": "ENG3U",
+        "name": "English",
+        "teacherId": "695d2fd0ea35025cbb35ee51",
+        "semester": "Full Year",
+        "room": "E103",
+        "schedule": "Day 2 AM"
+    },
+    {
+        "_id": "695d3031ea35025cbb35ee86",
+        "id": 4,
+        "code": "HRT3M",
+        "name": "World History",
+        "teacherId": "695d2fd0ea35025cbb35ee52",
+        "semester": "Full Year",
+        "room": "H210",
+        "schedule": "Day 2 PM"
+    },
+    {
+        "_id": "695d3031ea35025cbb35ee87",
+        "id": 5,
+        "code": "MTH4U",
+        "name": "Advanced Functions",
+        "teacherId": "695d2fd0ea35025cbb35ee4f",
+        "semester": "Full Year",
+        "room": "M102",
+        "schedule": "Day 3 AM"
+    },
+    {
+        "_id": "695d3031ea35025cbb35ee88",
+        "id": 6,
+        "code": "PPL2O",
+        "name": "Healthy Active Living",
+        "teacherId": "695d2fd0ea35025cbb35ee54",
+        "semester": "1",
+        "room": "G12",
+        "schedule": "Day 3 PM"
+    },
+    {
+        "_id": "695d3019ea35025cbb35ee82"
+    }
 ]
