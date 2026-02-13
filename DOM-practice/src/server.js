@@ -8,6 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.join(__dirname, "..", ".env") });
 import express from "express";
+import cors from "cors";
 
 import User from "./models/Users.js";
 
@@ -15,6 +16,7 @@ import connectDB from "./db.js";
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 const PORT = process.env.PORT || 3000;
 

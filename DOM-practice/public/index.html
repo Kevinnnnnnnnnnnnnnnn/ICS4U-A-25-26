@@ -18,22 +18,19 @@
                 const users = await res.json();
                 const tableBody = document.querySelector("tbody");
                 users.forEach(u => {
-                    const row = document.createElement(
-                        `
-                        <tr>
-                            <td>${u.id}</td>
-                            <td>${u.name}</td>
-                            <td>${u.phone}</td>
-                            <td>${u.address}</td>
-                            <td>${u.gender}</td>
-                            <td>${u.age}</td>
-                            <td>${u.username}</td>
-                            <td><span class="pill ok">••••••••</span></td>
-                        </tr>
-                        `
-                    );
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${u.id ?? ''}</td>
+                        <td>${u.name}</td>
+                        <td>${u.phone}</td>
+                        <td>${u.address}</td>
+                        <td>${u.gender}</td>
+                        <td>${u.age}</td>
+                        <td>${u.username}</td>
+                        <td><span class="pill ok">••••••••</span></td>
+                    `;
                     tableBody.appendChild(row);
-                });   
+                });
             }
             catch (error) {
                 alert(`Error loading users. Please try again. Error message: ${error}`);
