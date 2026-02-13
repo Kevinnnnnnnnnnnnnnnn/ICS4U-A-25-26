@@ -13,7 +13,7 @@
 
         async function loadUsers() {
             try {
-                const res = await fetch("https://ics4u-a-25-26.onrender.com/users");
+                const res = await fetch("https://ics4u-a-25-26-dom-practice.onrender.com/users");
                 if (!res.ok) throw new Error(`Response status: ${res.status}`);
                 const users = await res.json();
                 const tableBody = document.querySelector("tbody");
@@ -43,7 +43,7 @@
                 const formData = new FormData(formEl);
                 const data = Object.fromEntries(formData);
 
-                const res = await fetch('https://ics4u-a-25-26.onrender.com/users', {
+                const res = await fetch('https://ics4u-a-25-26-dom-practice.onrender.com/users', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data)
